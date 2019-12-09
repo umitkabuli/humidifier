@@ -24,7 +24,27 @@ C-Dış ortam modülü
 -nem ve sıcaklık sensörü-bir ESP wifi client
 
 
+Modüller:
+1-SI7021 Sıcaklı Nem Modülü:
+ /* DF Robot SI7020 Source: https://wiki.dfrobot.com/SI7021_Temperature_and_humidity_sensor_SKU_TOY0054 */
+/* Robotistan.com the product sale link: https://www.robotistan.com/si7021-sicaklik-ve-nem-sensor-karti 
+ Robotistan.com SI7021 Sıcaklık ve Nem Sensör Kartı: https://www.robotistan.com/si7021-sicaklik-ve-nem-sensor-karti 
+ Robotistan Ürün Kodu:15131 
 
+
+SI7021 sıcaklık ve nem sensörü, analog-dijital çevirici, sinyal işleme devresi ve I2C haberleşme devresini bir arada barındıran bir entegredir.
+
+Özellikler:
+Çalışma gerilimi: 1.9 - 3.6V (tavsiye edilen: 3.3V)
+Boşta çektiği akım: 60nA
+Sıcaklık ölçüm aralığı: -40 - 85 Celsius (tavsiye edilen:  -10 - 60 Celsius)
+Sıcaklık hassasiyeti: ±0.4℃ (-10 - 85C arasında)
+Nem ölçüm aralığı: %0 - %100 bağıl nem (tavsiye edilen: %20-%80 bağıl nem)
+Nem ölçüm hassasiyeti: ± %3 (%20-%80 aralığında)
+Sıcaklık ölçümü çevrim süresi: 7ms
+Nem ölçümü çevrim süresi: 17ms (nem ölçümü yapıldığında otomatik olarak sıcaklık ölçümü de yapılır)
+Haberleşme arayüzü: I2C
+Boyutlar: 13mm x 10mm
 
 
 Algoritma
