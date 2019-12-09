@@ -1,7 +1,3 @@
-﻿Alınacaklar
-- 7815 ve gerekli parçalar, direnç, kondansatör, konnektör, pertinaks
-- akü vidaları.
-- 
 
 
 Ev İçi Nem Sıcaklık Kontrolü Projesi
