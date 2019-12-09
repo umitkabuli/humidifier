@@ -1,0 +1,44 @@
+﻿Alınacaklar
+- 7815 ve gerekli parçalar, direnç, kondansatör, konnektör, pertinaks
+- akü vidaları.
+- 
+
+
+Ev İçi Nem Sıcaklık Kontrolü Projesi
+
+Malzemeler
+==========
+A-Merkezdeki MCU
+1- Nem sensörü 2 adet aynı sensör.
+2- Sıcaklık sensörü 2 adet 
+3- Zaman modülü
+4-SD kart modülü
+(3 ve 4 Ada fruite klonu data kogger kartında birleşik)
+5-Prototip shild
+6- Ethernet shield veya ethernet modülü 
+7- ESP wifi
+8-Arduino UNO
+
+B-Oda içi modülü
+-bir ESP wifi client
+-nem ve sıcaklık sensörü
+
+C-Dış ortam modülü
+-bir ESP wifi client
+-nem ve sıcaklık sensörü-bir ESP wifi client
+
+
+
+
+
+Algoritma
+1- Nem ve sıcaklı değerlerini sensörlerden al ve hesapla
+2- İki sensör değerini karşılaştır. İki sensör değerleri 
+arasındaki fark hata aralığının çok üzerinde ise 
+(ör. sıcaklık dğerleri farkı > +- sapma değerleri farkının iki katı) ekrana uyarı yazdır
+(buzzer  opsiyonel) tarih saat bilgisi ile sd/mikrı sd karta yazdır)
+3- Değerler sapma aralığından büyük sapmalar (ör. iki katı) göstermiyorsa doğru kabul et.
+
+
+
+
